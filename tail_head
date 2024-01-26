@@ -1,0 +1,11 @@
+import random as rnd
+
+num = rnd.randint(0,1)
+
+
+if num ==0:
+    x = 'tail'
+else:
+    x = 'head'
+
+print(x)
